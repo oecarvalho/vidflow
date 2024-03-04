@@ -7,18 +7,18 @@
     <title>VidFlow</title>
 </head>
 <body>
-    <header class="">
+    <header class="mt-4">
         <div class="container">
-            <div class="flex justify-between items-center mt-4">
+            <div class="flex justify-between items-center">
                 <img class="w-full max-w-28 max-h-7 relative" src="/img/VidFlow--Logo-light-mode.png" alt="">
-                <div class="hidden md:flex justify-center items-center relative w-full">
+                <div class="hidden lg:flex justify-center items-center relative w-full">
                     <input class="border-2 rounded-l-full py-2 px-3 w-full max-w-md md:max-w-52 text-sm lg:max-w-96" type="text" placeholder="Pesquisar">
                     <div class="absolute bottom-3 right-[38%]">
                         <img src="/img/topbar/keyboard.png" alt="">
                     </div>
-                    <div class="bg-gray-200 py-3 px-3 rounded-r-full h-[40px]">
+                    <button class="bg-gray-200 py-3 px-3 rounded-r-full h-[40px]">
                         <img src="/img/topbar/search.svg" alt="">
-                    </div>
+                    </button>
                 </div>
                 <div class="flex items-center justify-end gap-4 max-w-fit md:w-full lg:justify-between lg:max-w-72 lg:gap-0">
                     <a class="hidden md:inline-block" href=""><img src="/img/topbar/video_call.png" alt=""></a>
@@ -31,5 +31,24 @@
             </div>
         </div>
     </header>
+    <nav class="my-6 md:my-12">
+        <div class="container">
+            <div class="flex items-center justify-between md:justify-normal gap-4 md:border-y-[.0625rem] py-4 border-gray-900 lg:justify-between lg:gap-0">
+                <button class="py-2 px-3 active rounded-lg font-medium text-sm">Tudo</button>
+                <button class="py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-500 hover:bg-gray-400 duration-300 hover:text-white">Debates</button>
+                <button class="py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Ao Vivo</button>
+                <button class="py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Podcasts</button>
+                <button class="hidden md:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Front-End</button>
+                <button class="hidden md:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Mobile</button>
+                <button class="hidden md:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">DataScience</button>
+                <button class="hidden md:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Apps</button>
+                <button class="hidden xl:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Programação</button>
+                <button class="hidden xl:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Inteligência Artificial</button>
+                <button class="hidden xl:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Inovação</button>
+                <button class="hidden xl:flex py-2 px-3 bg-gray-300 rounded-lg font-medium text-sm text-gray-600 hover:bg-gray-400 duration-300 hover:text-white">Gestão</button>
+                <img src="/img/arrow_forward_ios.png" alt="">
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
