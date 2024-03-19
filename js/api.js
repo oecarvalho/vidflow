@@ -28,7 +28,6 @@ async function buscarVideos() {
 }
 
 buscarVideos();
-
 const barraPesquisa = document.getElementById('barraPesquisa');
 
 barraPesquisa.addEventListener('input', buscarVideoPesquisa);
